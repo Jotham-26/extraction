@@ -1,0 +1,62 @@
+.pdf-section {
+    background: linear-gradient(135deg, #f0fff4 0%, #dff5e1 100%);
+    border-left: 6px solid #2f855a;
+}
+
+.pdf-section h2 {
+    color: #2f855a;
+    border-bottom: 3px solid #2f855a;
+}
+
+
+.pdf-section div {
+    background: #ffffff;
+    border-left: 4px solid #38a169;
+}
+
+.pdf-section h3 {
+    color: #276749;
+}
+
+.pdf-section h3::before {
+    content: "📄";
+}
+
+/* TEXTE */
+.pdf-section p {
+    color: #2d3748;
+}
+
+/* LISTES */
+.pdf-section ul {
+    margin-left: 30px;
+}
+
+.pdf-section ul li {
+    margin-bottom: 8px;
+    line-height: 1.6;
+}
+
+.pdf-section ul li::marker {
+    color: #38a169;
+}
+
+.pdf-section strong {
+    color: #2f855a;
+}
+
+.pdf-section div:hover {
+    transform: scale(1.02);
+    background: #f6fff7;
+    transition: 0.3s ease;
+}
+
+.pdf-badge {
+    display: inline-block;
+    background: #38a169;
+    color: white;
+    padding: 5px 12px;
+    border-radius: 20px;
+    font-size: 0.8rem;
+    margin-left: 10px;
+}
